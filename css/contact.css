@@ -1,0 +1,91 @@
+body {
+  background-color: #111;
+  color: #ddd;
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner */
+.page-banner {
+  background: url('../img/contact.jpg') no-repeat center center/cover;
+  width: 100%;  
+  padding: 100px 0;  
+  height: 600px; 
+  margin-top: -85px;   
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #1a1a1a;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+/* Contact Info */
+.contact-info i {
+  color: #ff6600;
+  margin-right: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #bbb;
+}
+
+/* Form */
+.contact-form {
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #111;
+  border: 1px solid #444;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff6600 !important;
+  background-color: #111 !important; 
+  color: #fff !important;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 102, 0, 0.6);
+}
+
+.contact-form ::placeholder {
+  color: #bbb !important;
+}
+
+/* Button */
+.btn {
+  background-color: #ff6600 !important;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e65c00 !important;
+}
+
+/* Autofill fix */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  background-color: #111 !important;
+  -webkit-text-fill-color: #fff !important;
+  box-shadow: 0 0 0 1000px #111 inset !important;
+}

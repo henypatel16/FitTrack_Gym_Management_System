@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+.page-banner {
+  width: 100%;
+  background-image: url('../img/services.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  height: 450px;
+  margin-top: 56px;
+}
+
+.services-section {
+  background-color: #000;
+  padding: 60px 0;
+}
+
+.service-card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px 15px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 28px rgba(255, 87, 34, 0.6);
+}
+
+.service-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 10px; 
+  border: 3px solid #ff6600;
+}
+
+.service-card h4 {
+  color: #ff6600;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.service-card h4 i {
+  color: #ff6600;
+  font-size: 22px;
+}
+
+.service-card p {
+  color: #ddd;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.services-section a{
+   text-decoration: none;
+     
+}

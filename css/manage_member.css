@@ -1,0 +1,82 @@
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-title {
+    color: #ff6600;
+    font-weight: 600;
+}
+
+.form-card {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.form-card .form-label {
+    color: #ffb74d;
+    font-weight: 500;
+}
+
+.form-control, .form-select {
+    background: #2c2c2c;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #ff9800;
+    box-shadow: none;
+    background-color: #222;  
+    color: #fff;  
+}
+
+.form-control::placeholder{
+     color: #bbb !important;    
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #333;
+    color: #ff9800;
+}
+
+.table tbody tr {
+    background-color: #1e1e1e !important;
+}
+
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #555 !important;
+}
+
+.btn-primary {
+    background-color: #ff9800;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e68900 !important;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #f44336;
+    border: none;
+}
+
+input:-webkit-autofill,input:-webkit-autofill:focus {
+  background-color: #222 !important;
+  -webkit-text-fill-color: #fff !important;
+  box-shadow: 0 0 0 1000px #222 inset !important;
+}

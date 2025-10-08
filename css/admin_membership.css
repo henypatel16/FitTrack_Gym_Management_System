@@ -1,0 +1,89 @@
+body {
+   background-color: #121212;
+   color: #e0e0e0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   backdrop-filter: blur(1px);
+}
+
+h2 {
+    font-weight: 600;
+    color: #ff6600;
+}
+
+.card {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card h5,.card h6,.membership-title,.membership-price,.membership-description,.form-label {
+    color: #fff;
+}
+.card .text-muted {
+    color: #ccc !important;
+}
+
+.form-control, .form-select {
+    background: #2c2c2c;
+    color: #fff;
+    border: 1px solid #444;
+}
+.form-label {
+    color: #ffb74d;
+    font-weight: 500;
+}
+.form-control::placeholder {
+    color: #bbb;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #ff9800;
+    box-shadow: none;
+    background-color: #222;  
+    color: #fff;  
+}
+
+textarea.form-control {
+    resize: none;
+    min-height: 100px;
+}
+
+.btn-primary, .btn-success {
+    background-color: #ff9800 !important;
+    border: none;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #e68900 !important;
+}
+
+.btn-warning {
+    border: none;
+    font-weight: 500;
+}
+
+.btn-danger {
+    background-color: #cc0000;
+    border: none;
+    font-weight: 500;
+}
+
+.btn-danger:hover {
+    background-color: #b30000;
+}
+
+.alert-warning {
+    background-color: rgba(255, 193, 7, 0.2);
+    border-color: #ffae00;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+input:-webkit-autofill,input:-webkit-autofill:focus {
+  background-color: #222 !important;
+  -webkit-text-fill-color: #fff !important;
+  box-shadow: 0 0 0 1000px #222 inset !important;
+}

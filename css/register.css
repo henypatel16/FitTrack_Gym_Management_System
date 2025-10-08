@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../img/registerIMG.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-contrainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+   
+}
+
+.logo {
+    position: absolute;
+    top: 70px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    margin-bottom: 20px;
+}
+
+
+.register-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    max-width: 500px;
+    width: 100%;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    background-color: #1c1c1c;
+    border: none;
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #ada8a8;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #444;
+    color: #ada8a8;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 0.85rem;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #666;
+}
+
+.btn-warning {
+    background-color: #ffd700;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #e6c200;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input:-webkit-autofill,input:-webkit-autofill:focus {
+  background-color: #222 !important;
+  -webkit-text-fill-color: #fff !important;
+  box-shadow: 0 0 0 1000px #222 inset !important;
+}

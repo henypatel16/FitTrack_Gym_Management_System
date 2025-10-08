@@ -1,0 +1,87 @@
+     body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('../img/loginIMG.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+.login-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    position: absolute;
+    top: 110px; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    max-width: 500px;
+    width: 100%;
+  }
+
+    .login-img {
+      width: 100px;
+      position: absolute;
+      top: 40px;
+      left: 50%;
+      transform: traslateX(-50%);
+      z-index: 999;
+    }
+
+    .form-control {
+      margin-bottom: 20px;
+      background-color: #1c1c1c;
+      border: none;
+      color: #fff;
+    }
+
+    .form-control:focus {
+      background-color: #2c2c2c;
+      color: #fff;
+    }
+
+    .form-control::placeholder{
+          color: #ada8a8
+    }
+
+    .btn-login {
+      background-color: #ffd700;
+      border: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .btn-login:hover {
+      background-color: #e6c200;
+    }
+
+    .footer-link {
+      color: #bbb;
+      font-size: 0.9em;
+    }
+
+    .footer-link:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    input:-webkit-autofill,input:-webkit-autofill:focus {
+  background-color: #222 !important;
+  -webkit-text-fill-color: #fff !important;
+  box-shadow: 0 0 0 1000px #222 inset !important;
+}

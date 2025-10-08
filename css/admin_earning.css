@@ -1,0 +1,102 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+h2 {
+    color: #ff9900;
+    font-weight: 600;
+}
+
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table.table {
+    background-color: #111 !important;
+    color: #fff !important;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+table.table th {
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: #333;
+  color: #ff9800 !important;
+}
+
+table.table td {
+    background-color: #111 !important;
+    padding: 5px;
+    border: 1px solid #444;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+
+table tbody tr {
+  background-color: #111 !important;
+  color: #fff;
+}
+
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #555 !important;
+}
+
+select.form-select {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 6px;
+}
+
+.btn {
+    border: none;
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    transition: 0.2s ease;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.action-form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.text-warning{
+    text-align: right;
+}

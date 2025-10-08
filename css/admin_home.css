@@ -1,0 +1,66 @@
+body.dark-theme {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dashboard {
+  padding: 25px 0;
+}
+
+.dashboard-title {
+  color: #ff6600;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dashboard-card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(255, 102, 0, 0.4);
+}
+
+.card-icon {
+  font-size: 38px;
+  color: #ff6600;
+  margin-bottom: 12px;
+}
+
+.dashboard-card h5 {
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.dashboard-card p {
+  font-size: 15px;
+  color: #bbb;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .dashboard-card {
+    padding: 20px;
+  }
+  .card-icon {
+    font-size: 30px;
+  }
+  .dashboard-title {
+    font-size: 26px;
+  }
+}

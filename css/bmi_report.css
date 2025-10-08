@@ -1,0 +1,112 @@
+.bmi-section {
+  padding: 30px 0;
+  background-color: #121212; 
+  min-height: 100vh;
+}
+
+.section-subtitle {
+  color: #ff9900;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ff6600;
+  margin-bottom: 10px;
+}
+
+.section-title + p {
+  color: #bbb;
+  font-size: 15px;
+}
+
+/* ===== Card Styling ===== */
+.card-custom {
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+
+/* ===== Custom Table ===== */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  background: #1e1e1e !important; 
+}
+
+.custom-table thead {
+  background: #333 !important;
+}
+
+.custom-table th{
+  padding: 12px 15px !important;
+  border: 1px solid #444 !important;
+  background: transparent !important; 
+  color: #ff9800 !important;
+}
+
+.custom-table td {
+    border: 1px solid #444 !important;
+    text-align: center !important;
+    color: #ddd !important;
+    background: transparent !important; 
+    padding: 5px;
+}
+
+.custom-table tbody tr{
+  background: #1e1e1e !important;
+}
+
+.custom-table tbody tr:hover {
+  background: #3a3a3a !important;
+  transition: 0.3s;
+}
+
+/* ===== Buttons ===== */
+.btn-danger {
+  background: #e74c3c !important;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #fff !important;
+  transition: 0.3s;
+}
+
+.btn-danger:hover {
+  background: #c0392b !important;
+  transform: scale(1.05);
+}
+
+/* ===== Alerts ===== */
+.alert {
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.alert-dark {
+  background: #1e1e1e !important;
+  border: 1px solid #ff9900 !important;
+  color: #ff9900 !important;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .custom-table th,
+  .custom-table td {
+    font-size: 13px !important;
+    padding: 8px !important;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+}

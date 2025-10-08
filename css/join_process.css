@@ -1,0 +1,89 @@
+body {
+    background-color: #121212 !important;
+    color: #fff !important;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .my-5 {
+    background-color: #121212;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    max-width: 900px;
+    padding-top: 80px;
+}
+
+.card {
+    background-color: #2a2a2a !important;
+    color: #fff !important;
+    border: 1px solid #444;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2, h3, h4 {
+    color: #ff6600 !important;
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #ff6600 !important;
+    border-color: #ff6600 !important;
+}
+
+.btn-primary:hover {
+    background-color: transparent !important;
+    color: #ff6600 !important;
+    border-color: #ff6600 !important;
+}
+
+.table {
+    background-color: #1e1e1e;
+    color: #fff;
+    border-color: #444;
+}
+
+.table thead {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.table tbody tr {
+    background-color: #1a1a1a !important;
+    color: #fff !important;
+}
+
+.table tbody td {
+    background-color: #1a1a1a !important;
+    color: #fff !important;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #555 !important;
+}
+
+.badge.bg-success {
+    background-color: #28a745 !important;
+    color: #fff !important;
+}
+
+.badge.bg-warning {
+    background-color: #ffc107 !important;
+    color: #000 !important;
+}
+
+.badge.bg-danger {
+    background-color: #dc3545 !important;
+    color: #fff !important;
+}
+
+hr {
+    border-color: #444;
+}
+
