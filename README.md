@@ -29,10 +29,6 @@ This project was developed as a group project to demonstrate practical skills in
 - Database: MySQL
 
 
-## **Team Members**
-- Heny Patel
-- Vandana Parik
-
 ## **My Role - Heny Patel**
 In this project, I contributed to:
 
