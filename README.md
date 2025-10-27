@@ -32,7 +32,6 @@ This project was developed as a group project to demonstrate practical skills in
 ## **Team Members**
 - Heny Patel
 - Vandana Parik
-- Krishna Patil
 
 ## **My Role - Heny Patel**
 In this project, I contributed to:
