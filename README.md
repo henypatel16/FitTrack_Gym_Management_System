@@ -66,6 +66,3 @@ It helps simplify and digitalize gym operations with separate Admin and User int
 - Include payment gateway integration  
 - Create mobile app version for users  
 
----
-
-If you like this project, give it a star on GitHub!
